@@ -1,0 +1,151 @@
+
+
+.wallpaper {
+   height: 100vh;
+   width: 100%;
+   background: linear-gradient(-45deg, #285734, #966ed600, #307c65a4, #3d7767);
+   background-size: 400% 400%;
+   animation: wallpaper  3s ease infinite;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 1000;
+   background-size: cover;
+
+}
+
+
+@keyframes wallpaper {
+   0% {
+       background-position: 0% 50%;
+   }
+   50% {
+       background-position: 100% 50%;
+   }
+   100% {
+       background-position: 0% 50%;
+   }
+}
+
+.flex-container {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+z-index: 3000;
+}
+
+
+
+h6 {
+ font-family: 'Montserrat';
+font-style: normal;
+
+
+
+}
+
+
+.flex-block1{
+flex-direction:row;
+background-image: url('1.jpg');
+background-size: 100%;
+flex-grow:2;
+border: solid;
+height: 270px;
+align-items: stretch;
+max-width: 100%;
+background-repeat: no-repeat;
+max-height: 100vh;
+background-size: cover;
+background-position: center;
+z-index: 2000;
+width: 1500px;
+margin-bottom: auto;
+}
+
+
+/*.wallpaper {
+background-image: url('3.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 100vh;
+} */
+
+
+.container-main {
+display: inline-flex;
+justify-content: space-between;
+z-index: 2000;
+width: auto;
+align-items: center;
+width: 500px;
+}
+
+
+.flex-block {
+   align-items: center;
+   justify-content: space-between;
+   margin-bottom: 920px;
+   margin-left: 100px;
+   margin-right: 100px;
+   display: flex;
+   font-family: 'Montserrat',sans-serif;
+   text-align: center;
+}
+
+
+.button-main {
+   height: 2.5rem;
+   font-size: 1.2rem;
+   border: 0;
+   border-radius: 5px;
+   background-color:transparent;
+   color: rgba(255, 255, 255, 0.774);
+   cursor: pointer;
+   text-align: center;
+   font-family: 'Montserrat',sans-serif;
+   font-size: 17px;  
+   margin: auto;
+   
+}
+  
+  .button-main:hover {
+   font-size: 18px;
+   border-style:double;
+   font-family: 'Montserrat',sans-serif;
+   background: linear-gradient(45deg, rgb(19, 119, 102), rgb(19, 88, 128));
+   font-weight: 400;
+}
+
+
+
+  .button-main:active {
+   box-shadow: 0 0 0 0.25rem, rgb(10, 6, 5);
+   color: white;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   Try717276
+   Rap538553
