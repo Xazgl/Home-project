@@ -3,19 +3,19 @@
 .wallpaper {
    height: 100vh;
    width: 100%;
-   background: linear-gradient(-45deg, #285734, #966ed600, #307c65a4, #3d7767);
-   background-size: 400% 400%;
-   animation: wallpaper  3s ease infinite;
+   background-image: url(hd.jpg);
+  /* animation: wallpaper  3s ease infinite;*/
    display: flex;
-   justify-content: center;
-   align-items: center;
+    /* justify-content: center;
+   align-items: center;*/
    z-index: 1000;
    background-size: cover;
+   margin-bottom: 0px;
 
 }
 
 
-@keyframes wallpaper {
+/*@keyframes wallpaper {
    0% {
        background-position: 0% 50%;
    }
@@ -25,10 +25,10 @@
    100% {
        background-position: 0% 50%;
    }
-}
+}*/
 
-.flex-container {
-display: flex;
+.container-main {
+display: inline-flex;
 flex-direction: row;
 justify-content: space-between;
 z-index: 3000;
@@ -100,22 +100,27 @@ width: 500px;
    font-size: 1.2rem;
    border: 0;
    border-radius: 5px;
+   border-color: floralwhite;
    background-color:transparent;
-   color: rgba(255, 255, 255, 0.774);
    cursor: pointer;
    text-align: center;
    font-family: 'Montserrat',sans-serif;
    font-size: 17px;  
    margin: auto;
-   
+   color: floralwhite;
 }
   
   .button-main:hover {
    font-size: 18px;
    border-style:double;
    font-family: 'Montserrat',sans-serif;
-   background: linear-gradient(45deg, rgb(19, 119, 102), rgb(19, 88, 128));
-   font-weight: 400;
+   background: transparent;
+   font-size:20px;
+   border: solid;
+   border-radius: 5px;
+   margin: auto;
+   background-color:rgba(0,0,0,0.4);
+   border-width:thin;
 }
 
 
@@ -126,7 +131,47 @@ width: 500px;
 }
   
 
+ #news {
+display:flex;
+flex-direction: row;
 
+position:relative;
+height:700px;
+width: 300px;
+overflow-y:auto;	
+background: transparent;
+ width:100%;
+ background-size:cover;
+ opacity:0.80;
+ background-attachment:fixed; /*фиксатор картинки */
+ border:ridge;
+ }
+ 
+
+   p {
+      font-family: 'Montserrat', sans-serif;
+      Color:white;
+   }
+
+   h3 {
+      Color:white;
+      font-family: 'Montserrat', sans-serif;
+      }
+      
+      h2{
+      margin: 1em 0 0.5em 0;
+          color: #b4a9a9;
+          font-weight: normal;
+          font-family: 'Montserrat', sans-serif;  
+          font-size: 36px;
+          line-height: 42px;
+          text-transform: uppercase;
+          text-shadow: 0 2px white, 0 3px #777;
+         
+         
+      
+      }
+   
 
 
 
