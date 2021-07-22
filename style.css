@@ -1,19 +1,22 @@
-
-
 .wallpaper {
-   height: 100vh;
+   /* height: 100vh; */
    width: 100%;
    background-image: url(hd.jpg);
-  /* animation: wallpaper  3s ease infinite;*/
+   /* animation: wallpaper  3s ease infinite;*/
    display: flex;
-    /* justify-content: center;
-   align-items: center;*/
+   flex-direction: column;
+
+   /* justify-content: center; */
+   align-items: center;
    z-index: 1000;
    background-size: cover;
    margin-bottom: 0px;
-
 }
 
+.flex-container {
+   display: flex;
+   justify-content: center;
+}
 
 /*@keyframes wallpaper {
    0% {
@@ -28,41 +31,34 @@
 }*/
 
 .container-main {
-display: inline-flex;
-flex-direction: row;
-justify-content: space-between;
-z-index: 3000;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   /* z-index: 3000; */
 }
-
-
 
 h6 {
- font-family: 'Montserrat';
-font-style: normal;
-
-
-
+   font-family: 'Montserrat';
+   font-style: normal;
 }
 
-
-.flex-block1{
-flex-direction:row;
-background-image: url('1.jpg');
-background-size: 100%;
-flex-grow:2;
-border: solid;
-height: 270px;
-align-items: stretch;
-max-width: 100%;
-background-repeat: no-repeat;
-max-height: 100vh;
-background-size: cover;
-background-position: center;
-z-index: 2000;
-width: 1500px;
-margin-bottom: auto;
+.flex-block1 {
+   /* flex-direction: row; */
+   background-image: url('1.jpg');
+   background-size: 100%;
+   /* flex-grow: 2; */
+   border: solid;
+   height: 270px;
+   /* align-items: stretch; */
+   max-width: 100%;
+   background-repeat: no-repeat;
+   max-height: 100vh;
+   background-size: cover;
+   background-position: center;
+   /* z-index: 2000; */
+   width: 1500px;
+   margin-bottom: auto;
 }
-
 
 /*.wallpaper {
 background-image: url('3.jpg');
@@ -72,28 +68,25 @@ background-position: center;
 height: 100vh;
 } */
 
-
 .container-main {
-display: inline-flex;
-justify-content: space-between;
-z-index: 2000;
-width: auto;
-align-items: center;
-width: 500px;
+   /* display: inline-flex; */
+   /* justify-content: space-between; */
+   /* z-index: 2000; */
+   width: auto;
+   align-items: center;
+   /* width: 500px; */
 }
-
 
 .flex-block {
    align-items: center;
    justify-content: space-between;
-   margin-bottom: 920px;
-   margin-left: 100px;
-   margin-right: 100px;
+   /* margin-bottom: 920px; */
+   /* margin-left: 100px;
+   margin-right: 100px; */
    display: flex;
-   font-family: 'Montserrat',sans-serif;
+   font-family: 'Montserrat', sans-serif;
    text-align: center;
 }
-
 
 .button-main {
    height: 2.5rem;
@@ -101,96 +94,67 @@ width: 500px;
    border: 0;
    border-radius: 5px;
    border-color: floralwhite;
-   background-color:transparent;
+   background-color: transparent;
    cursor: pointer;
    text-align: center;
-   font-family: 'Montserrat',sans-serif;
-   font-size: 17px;  
+   font-family: 'Montserrat', sans-serif;
+   font-size: 17px;
    margin: auto;
    color: floralwhite;
+   width: 12rem;
 }
-  
-  .button-main:hover {
+
+.button-main:hover {
    font-size: 18px;
-   border-style:double;
-   font-family: 'Montserrat',sans-serif;
+   border-style: double;
+   font-family: 'Montserrat', sans-serif;
    background: transparent;
-   font-size:20px;
+   font-size: 20px;
    border: solid;
    border-radius: 5px;
    margin: auto;
-   background-color:rgba(0,0,0,0.4);
-   border-width:thin;
+   background-color: rgba(0, 0, 0, 0.4);
+   border-width: thin;
 }
 
-
-
-  .button-main:active {
+.button-main:active {
    box-shadow: 0 0 0 0.25rem, rgb(10, 6, 5);
    color: white;
 }
-  
 
- #news {
-display:flex;
-flex-direction: row;
+#news {
+   display: flex;
+   flex-direction: row;
+   position: relative;
+   /* height: 700px; */
+   width: 300px;
+   overflow-y: auto;
+   background: transparent;
+   width: 100%;
+   background-size: cover;
+   opacity: 0.80;
+   background-attachment: fixed;
+   /*фиксатор картинки */
+   border: ridge;
+}
 
-position:relative;
-height:700px;
-width: 300px;
-overflow-y:auto;	
-background: transparent;
- width:100%;
- background-size:cover;
- opacity:0.80;
- background-attachment:fixed; /*фиксатор картинки */
- border:ridge;
- }
- 
+p {
+   font-family: 'Montserrat', sans-serif;
+   Color: white;
+}
 
-   p {
-      font-family: 'Montserrat', sans-serif;
-      Color:white;
-   }
+h3 {
+   Color: white;
+   font-family: 'Montserrat', sans-serif;
+}
 
-   h3 {
-      Color:white;
-      font-family: 'Montserrat', sans-serif;
-      }
-      
-      h2{
-      margin: 1em 0 0.5em 0;
-          color: #b4a9a9;
-          font-weight: normal;
-          font-family: 'Montserrat', sans-serif;  
-          font-size: 36px;
-          line-height: 42px;
-          text-transform: uppercase;
-          text-shadow: 0 2px white, 0 3px #777;
-         
-         
-      
-      }
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   Try717276
-   Rap538553
+h2 {
+   margin: 1em 0 0.5em 0;
+   color: #b4a9a9;
+   font-weight: normal;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 36px;
+   line-height: 42px;
+   text-transform: uppercase;
+   text-shadow: 0 2px white, 0 3px #777;
+}
